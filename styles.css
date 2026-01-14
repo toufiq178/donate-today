@@ -5,6 +5,10 @@
     display: flex;
 }
 
+.gray{
+
+    color: #707070;
+}
 .section-description {
 
     line-height: 28px;
@@ -125,6 +129,40 @@ header {
 
 .donate hr {
     margin-bottom: 30px;
+}
+
+/* our-plan related styles */
+.our-plan{
+    max-width: 1106px;
+    margin: 0 auto;
+    text-align: center;
+}
+.our-plan-cards-container{
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 50px;
+    
+}
+.our-plan-card{
+    border-radius: 5px;
+    padding: 54px 22px;
+}
+#plan-card1{
+    background-color:  rgba(79, 157, 166, 0.1);
+}
+#plan-card2{
+    background-color:  rgba(255, 89, 89, 0.1);
+}
+#plan-card3{
+    background-color:  rgb(255, 244, 214)
+;
+}
+.our-plancard-tittle{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #121212;
 }
 
 /* responsive for mobile device */
